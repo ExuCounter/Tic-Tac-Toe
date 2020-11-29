@@ -1,0 +1,13 @@
+.cell {
+  width: 32%;
+  flex-grow: 1;
+  height: 50px;
+  border: solid 1px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell:active {
+  background-color: rgb(132, 132, 185);
+}
